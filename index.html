@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Demo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #00aaff;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        .button:hover {background-color: #007acc}
+        .button:active {
+            background-color: #007acc;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Live Demo</h1>
-    <p>Please click the link below to view the demo in a new tab:</p>
-    <a href="https://sundayparadise.myshopify.com/password" target="_blank">View Live Demo</a>
+    <a href="https://sundayparadise.myshopify.com/password" target="_blank" class="button">Live Demo</a>
 </body>
 </html>
+
